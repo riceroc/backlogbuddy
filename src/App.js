@@ -1,11 +1,10 @@
 import React, { Fragment } from "react";
-import {HashRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link, useParams} from "react-router-dom";
 import Movies from './components/Movies';
 import Games from './components/Games';
 import Comics from './components/Comics';
 import Home from './components/Home';
 import Admin from './components/Admin';
-import { useParams } from "react-router-dom";
 
 
 export default function App() {
